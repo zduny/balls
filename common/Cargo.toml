@@ -1,0 +1,9 @@
+[package]
+name = "common"
+version = "0.1.0"
+authors = ["Daniel Zduniak <dzduniak@gmail.com>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1.0.147", features = ["derive"] }
