@@ -95,7 +95,6 @@ pub async fn main_client() -> Result<(), JsValue> {
             server::Message::Disconnected { id } => {
                 log::info!("Received 'disconnected' message: id: {id}.");
                 if state.borrow_mut().other_balls.remove(&id).is_none() {
-                    #[cfg(feature = "logging")]
                     log::error!("Could not find ball with id: {id}.");
                 }
             }
