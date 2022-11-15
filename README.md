@@ -1,4 +1,4 @@
-# balls
+# Balls
 
 Watch others move their balls in real time.
 
