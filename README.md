@@ -2,7 +2,7 @@
 
 Watch others move their balls in real time.
 
-![demo](https://i.imgur.com/JnURjwI.gif)
+![demo](https://i.imgur.com/QbH0smn.gif)
 
 ## Prerequisites
 
