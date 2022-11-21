@@ -16,7 +16,7 @@ tracing-subscriber = "0.3.16"
 warp = "0.3.3"
 kodec = { version = "0.1.0", features = ["binary"] }
 mezzenger = "0.1.0"
-mezzenger-websocket = { version = "0.1.0", default-features = false, features = [
+mezzenger-websocket = { version = "0.2.0", default-features = false, features = [
     "warp"
 ] }
 lazy_static = "1.4.0"
