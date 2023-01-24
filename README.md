@@ -22,13 +22,6 @@ Use shell scripts to format code, lint, build, test, run or clean:
 ./clean.sh
 ```
 
-Native client isn't included in `run.sh` (and `build_and_run.sh`) script,
-to run native client (most likely in another terminal window/tab) type:
-
-```bash
-./app_client
-```
-
 ### Windows 
 
 Above scripts are available in Batch file form in `windows` directory.
